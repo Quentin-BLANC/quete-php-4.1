@@ -6,9 +6,9 @@ $movies = [
   "Indiana Jones et la Dernière Croisade" => '1989' ,
 ];
 
+asort($movies);
+
 foreach ($movies as $movie => $date) {
   echo $date . "-" . $movie;
   echo PHP_EOL;
 };
-
-sort($movies);
